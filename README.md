@@ -12,7 +12,7 @@ restocks, sold-outs, and price changes — via Shopify's public
 
 2. **Pick an ntfy.sh topic.** This is just a free push-notification
    channel — no signup required.
-   - Choose an unguessable topic name, e.g. `botz-coffee-jonathan-x7f2`
+   - Choose an unguessable topic name, e.g. `botz-coffee-xyz`
      (treat it like a password — anyone who knows the exact topic name
      can read your alerts, since ntfy topics aren't private by
      default).
@@ -23,7 +23,7 @@ restocks, sold-outs, and price changes — via Shopify's public
 3. **Add the topic as a GitHub secret:**
    - Repo → Settings → Secrets and variables → Actions → New repository secret
    - Name: `NTFY_TOPIC`
-   - Value: `botz-coffee-jonathan-x7f2` (your topic name, not a URL)
+   - Value: `botz-coffee-xyz` (your topic name, not a URL)
 
 4. **`state.json` is already included**, baselined as of when this was
    built (Marlon Bolaños sold out, gift card variants in stock) — so
